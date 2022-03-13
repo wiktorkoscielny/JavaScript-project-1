@@ -1,0 +1,88 @@
+body
+{
+	background-color: black;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+#pojemnik
+{
+
+}
+
+.logo
+{
+	color: #0178c4;
+	font-size: 36px;
+	letter-spacing: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.interface
+{
+	color: white;
+}
+
+input[type=number]
+{
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.bgenerate
+{
+	margin-top: 20px;
+}
+
+input[type=button]
+{
+
+  background: rgb(235,181,30);
+  background: linear-gradient(90deg, rgba(235,181,30,1) 0%, rgba(255,121,0,1) 100%);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type=button]:hover
+{
+	background: rgb(187,145,26);
+    background: linear-gradient(90deg, rgba(187,145,26,1) 0%, rgba(149,71,0,1) 100%);
+}
+
+#ciag
+{
+	color: white;
+}
+
+.parent
+{	
+	display: inline-block;
+}
+
+.resault
+{
+		display: block;
+		width: 80px;
+		text-align: center;
+		font-size: 24px;
+		border: 2px white solid;
+		border-radius: 90px;
+    background: rgb(235,181,30);
+    background: linear-gradient(90deg, rgba(235,181,30,1) 0%, rgba(255,121,0,1) 100%);
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.resault:hover
+{
+	background: rgb(187,145,26);
+    background: linear-gradient(90deg, rgba(187,145,26,1) 0%, rgba(149,71,0,1) 100%);
+}
